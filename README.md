@@ -31,13 +31,13 @@
   - 또 추상화된 클래스를 사용하면 이 클래스가 어떤 역할을 하는지 직관적으로 이해가 가능함
     
   ## 다형성
-  
-  ![image](https://github.com/user-attachments/assets/bec7f769-0d53-4469-9ab3-ddbf82e2d5bf)
+   - 부모 타입의 참조 변수가 자식 타입의 객체에 참조가 가능한 것
+   ![image](https://github.com/user-attachments/assets/7f9a097d-42e2-4f8d-9360-680f79814919)
 
-  - 예를들어 asia나 afreica의 시간대를 보여준다 해보자;
-  - earth라는 부모클래스가 있고 new asia(); new afreica(); 라는 자식 클래스가 존재한다.
+  - 예를들어 asia나 afreeca의 시간대를 보여준다 해보자;
+  - earth라는 부모클래스가 있고 new asia(); new afreeca(); 라는 자식 클래스가 존재한다.
   - earth는 showtiem()이라는 추상메서드가 존재하고 하위 클래스는 각 지역별로 시간대를 나타내도록 showtime() 메서드를 구현했다.
-  - 이렇게 함으로써
+  - 이렇게 함으로써 
 
   - 결국 객체지향 프로그래밍은 유연한 설계를 목적으로 하는 것
   - 다형성은 부모타입의 객체가 자식타입을 참조함으로써 형변환을 통해 유연한 코드를 짤 수 있고
